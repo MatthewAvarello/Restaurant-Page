@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./images/jason-leung-poI7DelFiVA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header{
+    min-height: 10%;
+}
+h2{
+    font-size: 6vh;
+    color: olive;
+    margin: 0px;
+}
+.big{
+    font-size: 1.5rem;
+}
+.bigger{
+    font-size: 2rem;
+}
+#whitearea{
+    background-color: white;
+    margin: 1vw;
+    width: 40%;
+    border-radius: 8px;
+    padding: 0.5vw;
+}
+nav{
+    margin: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    font-size: 2rem;
+    margin: 8px;
+    border-radius: 8px;
+}
