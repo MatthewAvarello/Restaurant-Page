@@ -1,23 +1,25 @@
 body{
-    height: 100vh;
+    min-height: 100vh;
     padding: 0px;
     margin: 0px;
-    background-image: url(./images/jason-leung-poI7DelFiVA-unsplash.jpg);
+    background-image: url(/src/images/jason-leung-poI7DelFiVA-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#content{
-    display: flex;
-    flex-direction: column;
-    height: 90%;
+#homepagecontainer{
     justify-content: space-evenly;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#content{
+    height: 90%;
 }
 header{
     min-height: 10%;
 }
-h2{
+.homepage-h2{
     font-size: 6vh;
     color: olive;
     margin: 0px;
@@ -31,7 +33,7 @@ h2{
 #whitearea{
     background-color: white;
     margin: 1vw;
-    width: 40%;
+    width: clamp(300px,60vw,800px);
     border-radius: 8px;
     padding: 0.5vw;
 }
@@ -44,4 +46,11 @@ button{
     font-size: 2rem;
     margin: 8px;
     border-radius: 8px;
+}
+*{
+    color: white;
+}
+.foodimage{
+    height: 250px;
+    width: auto;
 }

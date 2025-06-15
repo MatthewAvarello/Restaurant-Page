@@ -1,5 +1,5 @@
-import "./global.css"
+import "./styles/globalandhomepage.css"
 import GenerateHomePage from "./Modules/homepage"
 console.log("Hello Webpack!")
-GenerateHomePage()
+//GenerateHomePage()
 console.log("Hello Webpack!22")
