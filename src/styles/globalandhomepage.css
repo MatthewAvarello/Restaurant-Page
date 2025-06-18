@@ -42,15 +42,13 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
+/*Homepage and general styles above*/
+/*Menu styles below*/
 button{
     font-size: 2rem;
     margin: 8px;
     border-radius: 8px;
 }
-*{
+.white{
     color: white;
-}
-.foodimage{
-    height: 250px;
-    width: auto;
 }
